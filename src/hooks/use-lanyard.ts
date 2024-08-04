@@ -13,7 +13,7 @@ interface MessageData {
 export const useLanyard = () => {
   const [data, setData] = React.useState<DiscordApiResponse | null>(null)
   const [isLoading, setIsLoading] = React.useState<boolean>(true)
-  const userId = env.NEXT_PUBLIC_DISCORD_ID
+  const userId = "madhen"
   const socketUrl = "wss://api.lanyard.rest/socket"
 
   const initMessage = () => {

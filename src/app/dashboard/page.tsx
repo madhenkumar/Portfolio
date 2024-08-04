@@ -1,6 +1,5 @@
 import { Languages as LanguagesType } from "@/types"
 
-import { getCodingStats } from "@/lib/api/wakatime"
 import { HeadingText } from "@/components/common/heading-text"
 import { CodeTime } from "@/components/dashboard/code-time"
 import { Languages } from "@/components/dashboard/languages"
@@ -22,7 +21,7 @@ interface ResponseData {
 }
 
 export default async function Dashboard() {
-  const data = (await getCodingStats()) as ResponseData
+  // const data = (await getCodingStats()) as ResponseData
 
   // if (!data || data.error) {
   //   return (
