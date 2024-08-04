@@ -35,11 +35,11 @@ export default function Navbar() {
                 Home
               </Link>
             </li>
-            <li className="hover:underline">
+            {/* <li className="hover:underline">
               <Link href="/dashboard" onClick={handleClick}>
                 Dashboard
               </Link>
-            </li>
+            </li> */}
           </ul>
           <ModeToggle />
         </div>

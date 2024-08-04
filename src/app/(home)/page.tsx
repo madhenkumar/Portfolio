@@ -12,6 +12,7 @@ type RepoData = Repo[] | { error: string }
 
 export default async function Home() {
   const data = (await getRepo()) as RepoData
+  console.log(data)
 
   if ("error" in data) {
     return (

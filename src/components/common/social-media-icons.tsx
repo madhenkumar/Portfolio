@@ -14,7 +14,7 @@ export function SocialMediaIcons() {
       >
         <FaGithub />
       </a>
-      <a
+      {/* <a
         target="_blank"
         href={siteConfig.links.facebook}
         rel="noopener noreferrer"
@@ -22,8 +22,8 @@ export function SocialMediaIcons() {
         className="rounded px-4 py-3 text-xl hover:bg-accent hover:text-accent-foreground"
       >
         <FaFacebook />
-      </a>
-      <a
+      </a> */}
+      {/* <a
         target="_blank"
         href={siteConfig.links.twitter}
         rel="noopener noreferrer"
@@ -31,7 +31,7 @@ export function SocialMediaIcons() {
         className="rounded px-4 py-3 text-xl hover:bg-accent hover:text-accent-foreground"
       >
         <FaTwitter />
-      </a>
+      </a> */}
       <a
         target="_blank"
         href={siteConfig.links.linkedin}
