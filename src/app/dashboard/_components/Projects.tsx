@@ -3,7 +3,7 @@ import { GitHubIcon } from "./icons";
 import { WEB_APPS } from "@/app/data/projects";
 import { SocialLink } from "./social-link";
 
-type Project = {
+export type Project = {
     title: string;
     tags: string[];
     description: string;

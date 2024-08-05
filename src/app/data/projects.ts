@@ -36,7 +36,7 @@ export const WEB_APPS: Project[] = [
       "Built the backend for SRP Tourism's existing front-end-only website using Next.js, Tailwind CSS, TRPC, React, and Prisma. Enabled clients to submit and share reviews, enhancing user interaction and feedback on the platform.",
     tags: ["Typescript", "React", "Nodejs", "MongoDB", "Socket"],
   },
-  ] as const;
+  ];
   
   export const TOOLS = [
     {
