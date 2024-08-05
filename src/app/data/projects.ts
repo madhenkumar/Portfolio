@@ -13,7 +13,7 @@ export const WEB_APPS: Project[] = [
   {
     title: "RC-Server",
     repo: "https://github.com/madhenkumar",
-    demo: "https://rcserver.vercel.app/home",
+    demo: "https://rcserver.vercel.app",
     thumbnail: "/rcserver.png",
         description:
       "Developed a comprehensive end-to-end solution for RC-server, including a robust backend with TRPC and Prisma for scalable API communication and database management. Delivered a complete platform from frontend to backend and deployed it using Vercel for efficient and scalable hosting.",

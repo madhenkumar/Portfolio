@@ -22,6 +22,9 @@ export const ProjectCard = ({ project }: Props) => {
       className="flex cursor-pointer flex-col rounded-xl transition hover:bg-zinc-50 hover:dark:bg-zinc-800/50"
       key={project.title}
     >
+          <a href={project.demo}   target="_blank"
+  rel="noopener noreferrer">
+
       <Image
         src={project.thumbnail}
         alt={`Logo of ${project.title}`}
@@ -30,6 +33,8 @@ export const ProjectCard = ({ project }: Props) => {
         height={0}
         unoptimized
       />
+          </a>
+
       <div className="p-4">
         <a className="text-base font-semibold tracking-tight text-zinc-800 dark:text-zinc-100">
           {project.title}
