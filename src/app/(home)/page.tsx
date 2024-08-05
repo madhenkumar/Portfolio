@@ -6,7 +6,9 @@ import { HeadingText } from "@/components/common/heading-text"
 import { SocialMediaIcons } from "@/components/common/social-media-icons"
 import { Introduction } from "@/components/introduction"
 import { ProjectsSkeleton } from "@/components/loaders/projects-skeleton"
-import { ProjectCard } from "@/components/projects/project-card"
+import { WEB_APPS } from "../data/projects"
+import { ProjectCard } from "../dashboard/_components/Projects"
+// import { ProjectCard } from "@/components/projects/project-card"
 
 type RepoData = Repo[] | { error: string }
 
@@ -54,9 +56,9 @@ export default async function Home() {
         </div>
         <div className="flex flex-col items-end gap-4">
           <div className="grid w-full grid-cols-1 md:grid-cols-2">
-            {data.map((project, index) => (
-              <ProjectCard key={index} project={project} />
-            ))}
+          {WEB_APPS.map((project) => (
+        <ProjectCard key={project.title} project={project} />
+      ))}
           </div>
           <a
             target="_blank"
